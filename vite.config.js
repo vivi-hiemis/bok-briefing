@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
 export default defineConfig({
+  base: process.env.GITHUB_PAGES ? '/bok-briefing/' : '/',
   plugins: [react()],
   build: {
     rollupOptions: {
