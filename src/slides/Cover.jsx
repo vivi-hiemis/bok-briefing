@@ -1,6 +1,5 @@
-/* global React */
 // 표지 — 한국은행 블루톤, 중앙 정렬, 미니멀
-function Cover() {
+export default function Cover() {
   return (
     <div className="slide" style={{ background: 'var(--bok-navy-900)', color: 'var(--white)', position: 'relative', overflow: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
       {/* 미세한 수직선 백그라운드 */}
@@ -68,4 +67,3 @@ function Cover() {
     </div>
   );
 }
-window.Cover = Cover;

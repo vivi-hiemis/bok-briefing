@@ -60,7 +60,7 @@ function CoverC() {
       }}>
         <div className="mono" style={{
           fontSize: 15, letterSpacing: '0.35em',
-          color: 'var(--accent-gold)', marginBottom: 28,
+          color: 'var(--accent-blue)', marginBottom: 28,
         }}>
           — BRIEFING TO THE GOVERNOR —
         </div>

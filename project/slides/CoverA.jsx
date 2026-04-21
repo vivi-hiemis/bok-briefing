@@ -26,7 +26,7 @@ function CoverA() {
         fontSize: 16, letterSpacing: '0.08em',
       }} className="mono">
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-          <div style={{ width: 10, height: 10, borderRadius: '50%', background: 'var(--accent-gold)' }} />
+          <div style={{ width: 10, height: 10, borderRadius: '50%', background: 'var(--accent-blue)' }} />
           <span style={{ textTransform: 'uppercase' }}>The Bank of Korea · Economic Research Institute</span>
         </div>
         <div>2026.04.21</div>
@@ -38,7 +38,7 @@ function CoverA() {
         maxWidth: 1600,
       }}>
         <div className="mono" style={{
-          fontSize: 18, color: 'var(--accent-gold)', letterSpacing: '0.28em',
+          fontSize: 18, color: 'var(--accent-blue)', letterSpacing: '0.28em',
           textTransform: 'uppercase', marginBottom: 36,
         }}>
           新任 總裁 業務報告 · Briefing for the Governor

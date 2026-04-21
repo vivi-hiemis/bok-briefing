@@ -1,6 +1,5 @@
-/* global React */
 // 슬라이드 3 — Ⅱ. 중점 추진 업무: 4개 축, 꽉 찬 레이아웃, 핵심항목 하이라이트
-function SlidePriorities() {
+export default function SlidePriorities() {
   const pillars = [
     {
       n: '01', kr: '경제구조 변화\n중장기 심층연구', tag: '인구구조 진단 · 세대간 분배 · 가계부채 연착륙 · 부동산 PF 리스크',
@@ -112,4 +111,3 @@ function SlidePriorities() {
     </div>
   );
 }
-window.SlidePriorities = SlidePriorities;

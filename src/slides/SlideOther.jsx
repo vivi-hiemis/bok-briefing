@@ -1,6 +1,5 @@
-/* global React */
 // 슬라이드 4 — 참고: 행사/실적/계획 (실제 데이터 반영)
-function SlideOther() {
+export default function SlideOther() {
   const events = [
     { m: 2, host: 'KEA', full: '한국경제학회 공동대회', topic: '거시·금융·국제 공동세션', d: '2.13–14', tone: 'navy' },
     { m: 3, host: 'BOJ', full: '일본은행', topic: 'Reviving Economic Dynamism in a Shifting World', d: '3.5–3.6', tone: 'navy' },
@@ -276,4 +275,3 @@ function SlideOther() {
     </div>
   );
 }
-window.SlideOther = SlideOther;

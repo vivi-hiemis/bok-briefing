@@ -1,6 +1,5 @@
-/* global React */
 // 슬라이드 2 — Ⅰ. 일반 현황: 조직도 가로 풀폭, 하단 보조 패널
-function SlideStatus() {
+export default function SlideStatus() {
   const labs = [
     { n: '연구조정실', c: 9, d: '연구업무 기획·조정 · 학계·연구기관 교류' },
     { n: '금융통화연구실', c: 6, d: '통화정책 · 인플레이션 · 금융시장 행태' },
@@ -186,4 +185,3 @@ function SlideStatus() {
     </div>
   );
 }
-window.SlideStatus = SlideStatus;

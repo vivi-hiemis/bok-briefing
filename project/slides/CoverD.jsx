@@ -30,7 +30,7 @@ function CoverD() {
         color: 'var(--white)',
       }}>
         <div>
-          <div className="mono" style={{ fontSize: 16, letterSpacing: '0.25em', color: 'var(--accent-gold)' }}>
+          <div className="mono" style={{ fontSize: 16, letterSpacing: '0.25em', color: 'var(--accent-blue)' }}>
             BOK · ERI — GOVERNOR BRIEFING
           </div>
           <div style={{ marginTop: 10, fontSize: 16, color: 'rgba(255,255,255,0.6)' }} className="mono">2026.04.21</div>
@@ -42,7 +42,7 @@ function CoverD() {
             letterSpacing: '-0.045em',
           }}>
             경제연구원<br/>
-            <span style={{ color: 'var(--accent-gold)' }}>업무보고</span>
+            <span style={{ color: 'var(--accent-blue)' }}>업무보고</span>
           </div>
           <div style={{
             marginTop: 48, fontSize: 30, fontWeight: 400,
@@ -91,8 +91,8 @@ function CoverD() {
           <svg viewBox={`0 0 ${W} ${H + 40}`} width="100%" height="100%" preserveAspectRatio="none" style={{ display: 'block' }}>
             <defs>
               <linearGradient id="ag" x1="0" x2="0" y1="0" y2="1">
-                <stop offset="0%" stopColor="oklch(78% 0.09 85)" stopOpacity="0.35" />
-                <stop offset="100%" stopColor="oklch(78% 0.09 85)" stopOpacity="0" />
+                <stop offset="0%" stopColor="oklch(80% 0.10 235)" stopOpacity="0.35" />
+                <stop offset="100%" stopColor="oklch(80% 0.10 235)" stopOpacity="0" />
               </linearGradient>
             </defs>
             {/* gridlines */}
@@ -101,12 +101,12 @@ function CoverD() {
                 stroke="rgba(255,255,255,0.08)" strokeWidth="1" />
             ))}
             <path d={area} fill="url(#ag)" />
-            <path d={line} stroke="oklch(78% 0.09 85)" strokeWidth="4" fill="none" />
+            <path d={line} stroke="oklch(80% 0.10 235)" strokeWidth="4" fill="none" />
             {pts.map((p, i) => (
               <g key={p.y}>
-                <circle cx={xs(i)} cy={ys(p.v)} r={i === pts.length - 1 ? 9 : 4} fill={i === pts.length - 1 ? 'oklch(78% 0.09 85)' : 'var(--white)'} />
+                <circle cx={xs(i)} cy={ys(p.v)} r={i === pts.length - 1 ? 9 : 4} fill={i === pts.length - 1 ? 'oklch(80% 0.10 235)' : 'var(--white)'} />
                 {i === pts.length - 1 && (
-                  <circle cx={xs(i)} cy={ys(p.v)} r="20" fill="none" stroke="oklch(78% 0.09 85)" strokeWidth="1" opacity="0.6" />
+                  <circle cx={xs(i)} cy={ys(p.v)} r="20" fill="none" stroke="oklch(80% 0.10 235)" strokeWidth="1" opacity="0.6" />
                 )}
               </g>
             ))}
@@ -121,7 +121,7 @@ function CoverD() {
         {/* 임팩트 수치 */}
         <div style={{ display: 'flex', gap: 24, marginTop: 16 }}>
           <div style={{ flex: 1, padding: '24px 0', borderTop: '1px solid rgba(255,255,255,0.2)' }}>
-            <div className="mono tnum" style={{ fontSize: 64, fontWeight: 800, color: 'var(--accent-gold)', lineHeight: 1, letterSpacing: '-0.03em' }}>
+            <div className="mono tnum" style={{ fontSize: 64, fontWeight: 800, color: 'var(--accent-blue)', lineHeight: 1, letterSpacing: '-0.03em' }}>
               1.2<span style={{ fontSize: 28, color: 'rgba(255,255,255,0.55)' }}> %</span>
             </div>
             <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.55)', marginTop: 8 }}>2030년 예상 잠재성장률</div>

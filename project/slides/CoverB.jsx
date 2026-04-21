@@ -7,7 +7,7 @@ function CoverB() {
     <div className="slide jensen" style={{ background: 'var(--bok-navy-950)' }}>
       {/* 왼쪽 상단 아이덴티티 */}
       <div style={{ position: 'absolute', top: 60, left: 80, color: 'rgba(255,255,255,0.7)' }}>
-        <div className="mono" style={{ fontSize: 14, letterSpacing: '0.25em', color: 'var(--accent-gold)', marginBottom: 8 }}>THE BANK OF KOREA</div>
+        <div className="mono" style={{ fontSize: 14, letterSpacing: '0.25em', color: 'var(--accent-blue)', marginBottom: 8 }}>THE BANK OF KOREA</div>
         <div style={{ fontSize: 22, fontWeight: 600, color: 'var(--white)' }}>경제연구원 <span style={{ color: 'rgba(255,255,255,0.5)', fontWeight: 400 }}>| Economic Research Institute</span></div>
       </div>
 
@@ -18,7 +18,7 @@ function CoverB() {
         textAlign: 'right',
       }}>
         <div>2026 · 04 · 21</div>
-        <div style={{ marginTop: 4, color: 'var(--accent-gold)' }}>GOVERNOR BRIEFING · 001</div>
+        <div style={{ marginTop: 4, color: 'var(--accent-blue)' }}>GOVERNOR BRIEFING · 001</div>
       </div>
 
       {/* 거대 "01" — 도입부 영감 */}
@@ -41,7 +41,7 @@ function CoverB() {
         fontWeight: 900,
         letterSpacing: '-0.08em',
         color: 'transparent',
-        WebkitTextStroke: '2px oklch(78% 0.09 85 / 0.35)',
+        WebkitTextStroke: '2px oklch(80% 0.10 235 / 0.35)',
         userSelect: 'none',
         pointerEvents: 'none',
       }}>01</div>
@@ -51,7 +51,7 @@ function CoverB() {
         position: 'absolute', right: 80, top: 320,
         textAlign: 'right', maxWidth: 1300,
       }}>
-        <div className="mono" style={{ fontSize: 17, color: 'var(--accent-gold)', letterSpacing: '0.3em', marginBottom: 28 }}>
+        <div className="mono" style={{ fontSize: 17, color: 'var(--accent-blue)', letterSpacing: '0.3em', marginBottom: 28 }}>
           CHAPTER ONE
         </div>
         <div style={{
@@ -91,7 +91,7 @@ function CoverB() {
             paddingLeft: i === 0 ? 0 : 28,
             color: i === 0 ? 'var(--white)' : 'rgba(255,255,255,0.5)',
           }}>
-            <div className="mono" style={{ fontSize: 13, letterSpacing: '0.15em', color: i === 0 ? 'var(--accent-gold)' : 'rgba(255,255,255,0.4)', marginBottom: 8 }}>{n}</div>
+            <div className="mono" style={{ fontSize: 13, letterSpacing: '0.15em', color: i === 0 ? 'var(--accent-blue)' : 'rgba(255,255,255,0.4)', marginBottom: 8 }}>{n}</div>
             <div style={{ fontSize: 20, fontWeight: 600, marginBottom: 2 }}>{kr}</div>
             <div className="mono" style={{ fontSize: 12, letterSpacing: '0.05em', color: 'rgba(255,255,255,0.35)' }}>{en}</div>
           </div>
